@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Stack.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    Stack *stackObject = [[Stack alloc] init];
+    [stackObject push:@"1"];
+    [stackObject push:@"16"];
+    NSLog(@"Number of objects in Stack after push = %d",[stackObject count]);
+    
+    [stackObject pop];
+    
+    NSLog(@"Number of objects in Stack after pop = %d",[stackObject count]);
+
 }
 
 - (void)didReceiveMemoryWarning
