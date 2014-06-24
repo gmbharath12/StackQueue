@@ -23,6 +23,7 @@
     Stack *stackObject = [[Stack alloc] init];
     [stackObject push:@"1"];
     [stackObject push:@"16"];
+   
     NSLog(@"Number of objects in Stack after push = %d",[stackObject count]);
     
     [stackObject pop];
