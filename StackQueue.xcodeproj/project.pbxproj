@@ -22,6 +22,7 @@
 		BD9C75D719590440000C0AF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD9C75D519590440000C0AF8 /* InfoPlist.strings */; };
 		BD9C75D919590440000C0AF8 /* StackQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C75D819590440000C0AF8 /* StackQueueTests.m */; };
 		BD9C75E4195904A6000C0AF8 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C75E3195904A6000C0AF8 /* Stack.m */; };
+		BD9C75FC195A4D59000C0AF8 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9C75FB195A4D59000C0AF8 /* Queue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		BD9C75D819590440000C0AF8 /* StackQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackQueueTests.m; sourceTree = "<group>"; };
 		BD9C75E2195904A6000C0AF8 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		BD9C75E3195904A6000C0AF8 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		BD9C75FA195A4D59000C0AF8 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		BD9C75FB195A4D59000C0AF8 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				BD9C75C319590440000C0AF8 /* ViewController.m */,
 				BD9C75E2195904A6000C0AF8 /* Stack.h */,
 				BD9C75E3195904A6000C0AF8 /* Stack.m */,
+				BD9C75FA195A4D59000C0AF8 /* Queue.h */,
+				BD9C75FB195A4D59000C0AF8 /* Queue.m */,
 				BD9C75C519590440000C0AF8 /* Images.xcassets */,
 				BD9C75B419590440000C0AF8 /* Supporting Files */,
 			);
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9C75FC195A4D59000C0AF8 /* Queue.m in Sources */,
 				BD9C75E4195904A6000C0AF8 /* Stack.m in Sources */,
 				BD9C75C419590440000C0AF8 /* ViewController.m in Sources */,
 				BD9C75BE19590440000C0AF8 /* AppDelegate.m in Sources */,
