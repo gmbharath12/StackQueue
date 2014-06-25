@@ -11,8 +11,6 @@
 @interface Queue : NSObject
 {
     NSMutableArray *m_cArray;
-    
-    
 }
 // Removes and returns the element at the front of the queue
 -(id)dequeue;
