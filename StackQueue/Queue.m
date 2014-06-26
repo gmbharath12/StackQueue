@@ -39,7 +39,6 @@
     [m_cArray addObject:element];
 }
 
-
 -(NSInteger)size
 {
     return [m_cArray count];
